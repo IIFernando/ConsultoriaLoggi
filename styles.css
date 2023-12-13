@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+    background-image: url("background.png"); /* Substitua 'background.jpg' pelo nome do seu arquivo de imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: auto auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; /* Estilo de fonte padrão para o corpo do site */
+    border-radius: 15px;  /* Adiciona bordas arredondadas */
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Cor de fundo com opacidade */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #00baff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
